@@ -1,11 +1,64 @@
 {
-  "name": "eslint-plugin-fsd-checker-by-ghumash",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "eslint-plugin-fsd-checker-by-ghumash@0.0.10",
+      "C:\\Users\\User\\Desktop\\Blog"
+    ]
+  ],
+  "_development": true,
+  "_from": "eslint-plugin-fsd-checker-by-ghumash@0.0.10",
+  "_id": "eslint-plugin-fsd-checker-by-ghumash@0.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-/PGwMEzTH9R6rKBSCh1/DGMmf3Yp+zGnlu8sXFmbWdwaeO3LIqL3nj5baABa3cD0ooRm8sMB3Ok2SsNXI3Xabw==",
+  "_location": "/eslint-plugin-fsd-checker-by-ghumash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "eslint-plugin-fsd-checker-by-ghumash@0.0.10",
+    "name": "eslint-plugin-fsd-checker-by-ghumash",
+    "escapedName": "eslint-plugin-fsd-checker-by-ghumash",
+    "rawSpec": "0.0.10",
+    "saveSpec": null,
+    "fetchSpec": "0.0.10"
   },
-  "author": "ghumash",
-  "license": "ISC"
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/eslint-plugin-fsd-checker-by-ghumash/-/eslint-plugin-fsd-checker-by-ghumash-0.0.10.tgz",
+  "_spec": "0.0.10",
+  "_where": "C:\\Users\\User\\Desktop\\Blog",
+  "author": {
+    "name": "ghumash"
+  },
+  "dependencies": {
+    "micromatch": "^4.0.5",
+    "requireindex": "^1.2.0"
+  },
+  "description": "plugin for production project",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.1.3"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "eslint-plugin-fsd-checker-by-ghumash",
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "version": "0.0.10"
 }
